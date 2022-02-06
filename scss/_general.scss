@@ -25,5 +25,9 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
-    font-family: "Arial",sans-serif ;
+    font-family: "Space Mono,Lexend Deca Arial",sans-serif ;
+}
+
+ul,ol{
+    list-style-type: none;
 }

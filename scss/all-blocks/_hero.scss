@@ -1,0 +1,79 @@
+
+  .hero__container {
+    height: 650px;
+    background-image: url("./../../images/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 350px;
+  }
+  
+  .hero__heading {
+    position: absolute;
+    width: 500px;
+    height: 112px;
+    left: 165px;
+    top: 249px;
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: #FFFFFF;
+  }
+  
+  .hero__text {
+    position: absolute;
+    width: 405px;
+    height: 100px;
+    left: 260px;
+    top: 401px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-top: 40px;
+  }
+  
+  .hero__text__text::after {
+    content: "";
+    position: absolute;
+    background-image: url("./../../images/");
+    background-repeat: no-repeat;
+    width: 415px;
+    height: 15px;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(-472px, -50%);
+            transform: translate(-472px, -50%);
+  }
+  
+  .hero__text__text::before {
+    content: "";
+    position: absolute;
+    background-image: url("./../../images/full_strelka_hero.svg");
+    background-repeat: no-repeat;
+    width: 450px;
+    height: 150px;
+    top: 50%;
+    left: 0;
+    -webkit-transform: translate(445px, -8px);
+            transform: translate(445px, -8px);
+  }
+  
+  .hero__button {
+    background: none;
+    border: 3px solid #FCB72B;
+    background-color: #FCB72B;
+    color: #fff;
+    padding: 14px 39px;
+    margin-top: 180px;
+    margin-left: 55px;
+  }
+  
+  .hero__button:hover {
+    border: 3px solid #FCB72B;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background: none;
+    color: #FCB72B;
+  }
